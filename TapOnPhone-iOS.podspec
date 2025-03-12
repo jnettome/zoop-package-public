@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = './sources/TapOnPhoneSDK.xcframework'
   s.requires_arc     = true
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
+  s.ios.deployment_target = '12.0'
   s.frameworks        = 'UIKit'
 end
 
